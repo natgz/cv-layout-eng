@@ -98,6 +98,10 @@ body {
   color: #fff;
   font-weight: 300;
 }
+.contactInfo ul li a {
+  color: #fff;
+  font-weight: 300;
+}
 .contactInfo.language .percent {
   position: relative;
   width: 100%;
@@ -179,7 +183,7 @@ p {
 .about .box {
   display: flex;
   flex-direction: row;
-  margin: 20px 0;
+  margin: 0px 0;
 }
 .about .box .year_company {
   min-width: 150px;
@@ -202,13 +206,22 @@ p {
   color: #848c90;
   font-weight: 600;
 }
-.about.courses h4:nth-child(2) {
+.about.courses ul span:nth-child(2) {
   color: #2a7da2;
   font-weight: 700;
 }
-.about.courses h4 {
+.about.courses ul h4 {
   color: #333;
   font-weight: 400;
+}
+.about.courses ul li .icon {
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: #03a9f4;
+  position: relative;
+  list-style: none;
+  cursor: pointer;
 }
 
 .skills .bigBox {
@@ -237,6 +250,10 @@ p {
   margin: 10px;
 }
 
+.skills .bx {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 .skills .box {
   position: relative;
   width: 100%;
@@ -249,6 +266,12 @@ p {
   text-transform: uppercase;
   color: #848c99;
   font-weight: 500;
+}
+.skills h6 {
+  text-transform: none;
+  color: #003147;
+  font-weight: 400;
+  margin-top: 0px;
 }
 .skills .box .percent {
   position: relative;
